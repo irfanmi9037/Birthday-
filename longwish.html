@@ -3,35 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <title>My Long Birthday Wish 💌</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- makes it mobile-friendly -->
   <style>
     body {
+      margin: 0;
+      height: 100vh; /* full screen height */
+      display: flex;
+      justify-content: center;   /* center horizontally */
+      align-items: center;       /* center vertically */
       background: linear-gradient(to bottom right, #ffcccc, #ffe6f2);
       font-family: 'Georgia', serif;
+    }
+    .card {
+      text-align: center;
       color: #660033;
-      padding: 50px;
       line-height: 1.8;
+      font-size: 1.2em; /* bigger text for mobile */
+      border: 3px solid #cc0066; /* border around content */
+      border-radius: 12px;       /* rounded corners */
+      background-color: #fff;    /* white background for contrast */
+      padding: 20px;
+      max-width: 90%;            /* fits small screens */
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* soft shadow */
     }
     h1 {
-      text-align: center;
-      font-size: 3em;
-      margin-bottom: 30px;
+      font-size: 2em;
+      margin-bottom: 20px;
       color: #cc0066;
     }
     p {
-      font-size: 1.4em;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
     }
   </style>
 </head>
 <body>
-  <h1>💖 My Birthday Wish for You 💖</h1>
-  <p>My love, today is not just your birthday, it is a celebration of the day the world became brighter because you were born. 🎂✨</p>
-  <p>You are the reason my heart beats faster, the smile that lights up my darkest days, and the dream I never want to wake up from. 💕</p>
-  <p>On this special day, I wish you endless happiness, boundless love, and all the success your beautiful soul deserves. 🌹</p>
-  <p>May every moment of your life be filled with laughter, warmth, and the knowledge that you are deeply cherished — not just today, but forever. ❤️</p>
-  <p> Please forgive me if i have said anything to hurt you, </p>
-   <p>  Happy Birthday Michu and Happy Birthday My Love. </p>
-     <p>  Forever your Irfan. 💌</p>
+  <div class="card">
+    <h1>💖 My Birthday Wish for You 💖</h1>
+    <p>My love, today is not just your birthday, it is a celebration of the day the world became brighter because you were born. 🎂✨</p>
+    <p>You are the reason my heart beats faster, the smile that lights up my darkest days, and the dream I never want to wake up from. 💕</p>
+    <p>On this special day, I wish you endless happiness, boundless love, and all the success your beautiful soul deserves. 🌹</p>
+    <p>May every moment of your life be filled with laughter, warmth, and the knowledge that you are deeply cherished — not just today, but forever. ❤️</p>
+    <p>Please forgive me if I have said anything to hurt you.</p>
+    <p>Happy Birthday Michu and Happy Birthday My Love.</p>
+    <p>Forever your Irfan. 💌</p>
+  </div>
 
   <!-- Background Music -->
   <audio autoplay loop>
@@ -39,3 +54,4 @@
   </audio>
 </body>
 </html>
+
