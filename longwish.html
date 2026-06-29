@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>My Long Birthday Wish 💌</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- mobile-friendly -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- makes it mobile-friendly -->
   <style>
     body {
       margin: 0;
@@ -18,30 +18,21 @@
       text-align: center;
       color: #660033;
       line-height: 1.8;
-      font-size: 1.2em; /* base text size */
-      border: 3px solid #cc0066;
-      border-radius: 12px;
-      background-color: #fff;
+      font-size: 1.2em; /* bigger text for mobile */
+      border: 3px solid #cc0066; /* border around content */
+      border-radius: 12px;       /* rounded corners */
+      background-color: #fff;    /* white background for contrast */
       padding: 20px;
-      max-width: 90%;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      max-width: 90%;            /* fits small screens */
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* soft shadow */
     }
     h1 {
-      font-size: 1.8em; /* smaller than before, fits mobile */
+      font-size: 2em;
       margin-bottom: 20px;
       color: #cc0066;
-      word-wrap: break-word; /* prevents overflow on small screens */
     }
     p {
       margin-bottom: 15px;
-    }
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 1.5em; /* auto shrink on small phones */
-      }
-      .card {
-        font-size: 1em; /* adjust text size for small screens */
-      }
     }
   </style>
 </head>
@@ -59,9 +50,10 @@
 
   <!-- Background Music -->
   <audio autoplay loop>
-    <source src="your-music.mp4" type="audio/mpeg">
+    <source src="your-music.mp3" type="audio/mpeg">
   </audio>
 </body>
 </html>
+
 
 
